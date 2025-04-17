@@ -1,0 +1,30 @@
+\ProvidesFile{t1hlx.fd}[2005/09/15 font definitions for T1/hlx (WaS/PCTeX/TUG)]
+\@ifundefined{DeclareLucidaFontShape}{%
+\def\DeclareLucidaFontShape#1#2#3#4#5#6{%
+\DeclareFontShape{#1}{#2}{#3}{#4}{<->#5}{#6}}}{}
+
+\DeclareFontFamily{T1}{hlx}{}
+
+\DeclareLucidaFontShape{T1}{hlx}{m}{n}{
+hlxr8t
+}{}
+
+\DeclareLucidaFontShape{T1}{hlx}{m}{it}{
+hlxri8t
+}{}
+
+\DeclareLucidaFontShape{T1}{hlx}{b}{n}{
+hlxb8t
+}{}
+
+\DeclareLucidaFontShape{T1}{hlx}{b}{it}{
+hlxbi8t
+}{}
+
+\DeclareFontShape{T1}{hlx}{m}{sl}{<->ssub * hlx/m/it}{}
+\DeclareFontShape{T1}{hlx}{bx}{n}{<->ssub * hlx/b/n}{}
+\DeclareFontShape{T1}{hlx}{bx}{it}{<->ssub * hlx/b/it}{}
+\DeclareFontShape{T1}{hlx}{b}{sl}{<->ssub * hlx/b/it}{}
+\DeclareFontShape{T1}{hlx}{bx}{sl}{<->ssub * hlx/b/sl}{}
+
+\endinput

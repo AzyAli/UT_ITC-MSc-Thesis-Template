@@ -1,0 +1,7 @@
+This AFM subdirectory contains AFM files for the Lucida fonts.
+
+The AFM files for the math fonts with `tex' appended to the name
+have modified bounding boxes and bogus kern pairs to generate
+the correct TFM files for TeX using AFMtoTFM.
+
+--Y&Y

@@ -1,0 +1,30 @@
+\ProvidesFile{ts1hlct.fd}[2005/09/15 font definitions for TS1/hlct (WaS/PCTeX/TUG)]
+\@ifundefined{DeclareLucidaFontShape}{%
+\def\DeclareLucidaFontShape#1#2#3#4#5#6{%
+\DeclareFontShape{#1}{#2}{#3}{#4}{<->#5}{#6}}}{}
+
+\DeclareFontFamily{TS1}{hlct}{\hyphenchar \font -1}
+
+\DeclareLucidaFontShape{TS1}{hlct}{m}{n}{
+hlcrt8c
+}{}
+
+\DeclareLucidaFontShape{TS1}{hlct}{m}{sl}{
+hlcrot8c
+}{}
+
+\DeclareLucidaFontShape{TS1}{hlct}{b}{n}{
+hlcbt8c
+}{}
+
+\DeclareLucidaFontShape{TS1}{hlct}{b}{sl}{
+hlcbot8c
+}{}
+
+\DeclareFontShape{TS1}{hlct}{m}{it}{<->ssub * hlct/m/sl}{}
+\DeclareFontShape{TS1}{hlct}{bx}{n}{<->ssub * hlct/b/n}{}
+\DeclareFontShape{TS1}{hlct}{bx}{sl}{<->ssub * hlct/b/sl}{}
+\DeclareFontShape{TS1}{hlct}{b}{it}{<->ssub * hlct/b/sl}{}
+\DeclareFontShape{TS1}{hlct}{bx}{it}{<->ssub * hlct/b/it}{}
+
+\endinput

@@ -1,0 +1,47 @@
+\documentclass{utitcmsc}
+\pdfmapfile{+lucida.map}
+\input{head}
+
+\usepackage{amsmath}
+
+\title{YOUR TITLE}
+\author{YOUR FIRST AND LAST NAME}
+\ThesisMonth{August}
+\ThesisCourse{M-GEO}
+\ThesisYear{2021}
+\ThesisAdvisor{first advisor}
+\ThesisSupervisors{second advisor}
+\ThesisChair{chair of defence}
+\ThesisExaminers{external (External examiner)}
+\ThesisKeywords{various comma-separated terms}
+\begin{document}
+\maketitle
+\frontmatter
+
+\begin{abstract}
+HERE COMES YOUR ABSTRACT
+\end{abstract}
+
+\begin{acknowledgements}
+ACKS IF ANY
+\end{acknowledgements}
+\tableofcontents
+\listoffigures
+\listoftables
+
+%% Extra definitions
+
+\mainmatter
+\include{tex/c1}
+
+\include{tex/c2}
+
+\include{tex/c3}
+
+\backmatter
+
+\include{tex/a1_appendix}
+
+\include{tex/references}
+
+\end{document}

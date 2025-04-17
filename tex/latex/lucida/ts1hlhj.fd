@@ -1,0 +1,29 @@
+\ProvidesFile{ts1hlhj.fd}[2005/09/15 font definitions for TS1/hlhj (WaS/PCTeX/TUG)]
+\@ifundefined{DeclareLucidaFontShape}{%
+\def\DeclareLucidaFontShape#1#2#3#4#5#6{%
+\DeclareFontShape{#1}{#2}{#3}{#4}{<->#5}{#6}}}{}
+
+\DeclareFontFamily{TS1}{hlhj}{}
+
+\DeclareLucidaFontShape{TS1}{hlhj}{m}{n}{
+hlhr8c
+}{}
+
+\DeclareLucidaFontShape{TS1}{hlhj}{m}{it}{
+hlhri8c
+}{}
+
+\DeclareLucidaFontShape{TS1}{hlhj}{b}{n}{
+hlhb8c
+}{}
+
+\DeclareFontShape{TS1}{hlhj}{b}{it}{<->sub * hlhj/b/n}{}
+\DeclareFontShape{TS1}{hlhj}{bx}{n}{<->ssub * hlhj/b/n}{}
+\DeclareFontShape{TS1}{hlhj}{bx}{it}{<->sub * hlhj/b/n}{}
+\DeclareFontShape{TS1}{hlhj}{m}{sl}{<->ssub * hlhj/m/it}{}
+\DeclareFontShape{TS1}{hlhj}{b}{sl}{<->ssub * hlhj/b/it}{}
+\DeclareFontShape{TS1}{hlhj}{bx}{sl}{<->sub * hlhj/b/n}{}
+\DeclareFontShape{TS1}{hlhj}{b}{sc}{<->ssub * hlhj/b/n}{}
+\DeclareFontShape{TS1}{hlhj}{bx}{sc}{<->ssub * hlhj/b/n}{}
+
+\endinput

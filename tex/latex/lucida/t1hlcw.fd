@@ -1,0 +1,17 @@
+\ProvidesFile{t1hlcw.fd}[2005/09/15 font definitions for T1/hlcw (WaS/PCTeX/TUG)]
+\@ifundefined{DeclareLucidaFontShape}{%
+\def\DeclareLucidaFontShape#1#2#3#4#5#6{%
+\DeclareFontShape{#1}{#2}{#3}{#4}{<->#5}{#6}}}{}
+
+\DeclareFontFamily{T1}{hlcw}{}
+
+\DeclareLucidaFontShape{T1}{hlcw}{m}{it}{
+hlcriw8t
+}{}
+
+\DeclareFontShape{T1}{hlcw}{m}{sl}{<->ssub * hlcw/m/it}{}
+\DeclareFontShape{T1}{hlcw}{m}{n}{<-> ssub * hlcw/m/it}{}
+\DeclareFontShape{T1}{hlcw}{b}{n}{<-> ssub * hlcw/m/it}{}
+\DeclareFontShape{T1}{hlcw}{b}{it}{<-> ssub * hlcw/m/it}{}
+
+\endinput
