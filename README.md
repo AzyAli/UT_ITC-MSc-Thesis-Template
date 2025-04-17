@@ -23,7 +23,7 @@ The template automatically loads required packages; no additional package instal
 
 2. Clone the repository:
    ```bash
-   git clone https://github.com/AzyAli/utitcmsc-template.git
+   git clone https://github.com/AzyAli/UT_ITC-MSc-Thesis-Template.git
    ```
 
 3. Set up your project:
